@@ -1,5 +1,9 @@
+from parser.script import Parser
+
+
 def main():
-    print("Hello from rostel-test-task!")
+    parser = Parser()
+    parser.run()
 
 
 if __name__ == "__main__":
